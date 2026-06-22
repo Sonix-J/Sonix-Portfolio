@@ -1,16 +1,20 @@
 type CardProps = {
-  title?: string;
-  children: React.ReactNode;
-  className?: string;
-};
+  title?: string
+  children: React.ReactNode
+  className?: string
+  action?: React.ReactNode
+}
 
-export default function Card({ title, children, className = "" }: CardProps) {
+export default function Card({ title, children, className = '', action }: CardProps) {
   return (
-    <div
-      className={`border border-gray-100 rounded p-6 shadow-sm bg-white ${className}`}
-    >
-      {title && <h2 className="text-xl font-bold mb-4">{title}</h2>}
+    <div className={`border border-gray-100 rounded p-4 shadow-sm bg-white ${className}`}>
+      {title && (
+        <div className="flex items-center justify-between mb-4">
+          <h2 className="text-xl font-bold">{title}</h2>
+          {action}
+        </div>
+      )}
       {children}
     </div>
-  );
+  )
 }
