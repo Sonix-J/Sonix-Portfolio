@@ -3,7 +3,7 @@ import profile from '../../assets/profile.jpg'
 
 export default function Hero() {
   return (
-    <section className="flex items-center gap-6 px-4 py-8">
+    <section className="flex items-center gap-6">
       <img
         src={profile}
         alt="Jayson Gabriel Limosnero"
