@@ -1,15 +1,19 @@
-import { projects } from '../../lib/data'
-import ProjectCard from '../ui/ProjectCard'
-import Card from '../ui/Card'
+import { projects } from "../../lib/data";
+import ProjectCard from "../ui/ProjectCard";
+import Card from "../ui/Card";
 
 export default function Projects() {
   return (
     <Card
       title="Recent Projects"
-      action={<a href="/projects" className="text-sm font-semibold">View all</a>}
+      action={
+        <a href="/projects" className="text-sm font-semibold">
+          View all
+        </a>
+      }
     >
-      <div className="flex flex-col gap-3">
-        {projects.slice(0, 4).map(project => (
+      <div className="flex flex-col gap-3 md:grid md:grid-cols-2">
+        {projects.slice(0, 4).map((project) => (
           <ProjectCard
             key={project.id}
             title={project.title}
@@ -19,5 +23,5 @@ export default function Projects() {
         ))}
       </div>
     </Card>
-  )
+  );
 }
