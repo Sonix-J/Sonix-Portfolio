@@ -1,3 +1,8 @@
+import thirdWave from "../assets/projects/third-wave.png";
+import jamB from "../assets/projects/jam-b.png";
+import conversiv from "../assets/projects/conversiv.png";
+import chatConversiv from "../assets/projects/chat-conversiv.png";
+
 export const projects = [
   {
     id: "1",
@@ -5,30 +10,36 @@ export const projects = [
     description:
       "Made a website for my aunt & uncle for their local coffee business",
     link: "https://third-wave.netlify.app/",
+    preview: thirdWave,
   },
   {
     id: "2",
     title: "JAM-B",
     description: "Made a website for my local gym",
     link: "https://jam-b.netlify.app/",
+    preview: jamB
   },
   {
     id: "3",
     title: "Conversiv",
     description: "Description for Project 3",
-    link: "conversiv.io",
+    link: "https://www.conversiv.io/",
+    preview: conversiv
   },
   {
     id: "4",
     title: "Conversiv Chat",
     description: "Description for Project 4",
-    link: "chat.conversiv.io",
+    link: "https://chat.conversiv.io/",
+    preview: chatConversiv
   },
   {
     id: "5",
     title: "PROJECT-5",
     description: "Description for Project 5",
     link: "https://project5.vercel.app",
+    preview:
+      "https://api.microlink.io/?url=https://thirdwave.vercel.app&screenshot=true&meta=false&embed=screenshot.url",
   },
 ];
 
@@ -90,8 +101,27 @@ export const recommendations = [
 ];
 
 export const socials = [
-  { name: 'LinkedIn', url: 'https://www.linkedin.com/in/sonix-j/', image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg' },
-  { name: 'GitHub', url: 'https://github.com/sonix-j', image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg' },
-  { name: 'Facebook', url: 'https://www.facebook.com/sonix.jayson', image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg' },
-  { name: 'Instagram', url: 'https://www.instagram.com/sonix.jayson/', image: 'https://cdn-icons-png.flaticon.com/512/2111/2111463.png' },
-]
+  {
+    name: "LinkedIn",
+    url: "https://www.linkedin.com/in/sonix-j/",
+    image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg",
+  },
+  {
+    name: "GitHub",
+    url: "https://github.com/sonix-j",
+    image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+  },
+  {
+    name: "Facebook",
+    url: "https://www.facebook.com/sonix.jayson",
+    image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg",
+  },
+  {
+    name: "Instagram",
+    url: "https://www.instagram.com/sonix.jayson/",
+    image: "https://cdn-icons-png.flaticon.com/512/2111/2111463.png",
+  },
+];

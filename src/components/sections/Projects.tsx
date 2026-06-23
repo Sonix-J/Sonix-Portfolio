@@ -19,6 +19,7 @@ export default function Projects() {
             title={project.title}
             description={project.description}
             link={project.link}
+            preview={project.preview}
           />
         ))}
       </div>
