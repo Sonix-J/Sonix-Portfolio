@@ -2,7 +2,7 @@ import Card from "../ui/Card";
 
 export default function About() {
   return (
-    <Card title="About Me">
+    <Card title="About">
       <p>
         Hi, I’m Jayson Gabriel Limosnero. I’m passionate about coding, digital
         creativity, and personal growth. I enjoy turning ideas into functional
