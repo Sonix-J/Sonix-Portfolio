@@ -21,16 +21,16 @@ export default function ProjectCard({
       {preview && (
         <img src={preview} alt={title} className="w-full h-36 object-cover" />
       )}
-      <div className="flex flex-col gap-2 p-4">
-        <div className="flex flex-row gap-2 justify-between items-center">
+      <div className="flex flex-col gap-2 p-4 flex-1 justify-between">
+        <div>
           <h3 className="font-bold text-md">{title}</h3>
 
-          <span className="text-xs px-2 py-1 font-semibold border rounded bg-white self-start">
-            {link}
-          </span>
+          <p className="text-sm text-gray-800">{description}</p>
         </div>
 
-        <p className="text-sm text-gray-800">{description}</p>
+        <span className="text-xs px-2 py-1 font-semibold border rounded bg-white self-start">
+          {link}
+        </span>
       </div>
     </a>
   );

@@ -20,11 +20,11 @@ export default function Links() {
         ))}
         <a
           href="mailto:limosnerogabriel@gmail.com"
-          className="border p-2 border-gray-200 flex flex-col gap-1"
+          className="border p-2 border-gray-200 flex flex-col gap-1 shadow-sm"
         >
           <div className="flex items-center gap-2">
             <Mail size={16} />
-            <p className="text-xs font-bold">Email</p>
+            <p className="text-xs font-bold ">Email</p>
           </div>
           <div>
             <p className="text-xs font-bold">limosnerogabriel@gmail.com</p>
