@@ -1,19 +1,26 @@
 type ProjectCardProps = {
-  title: string
-  description: string
-  link?: string
-}
+  title: string;
+  description: string;
+  link?: string;
+};
 
-export default function ProjectCard({ title, description, link }: ProjectCardProps) {
+export default function ProjectCard({
+  title,
+  description,
+  link,
+}: ProjectCardProps) {
   return (
     <a
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      className="block border border-gray-100  p-4 shadow-sm bg-white"
+      className="flex flex-col gap-2 border border-gray-100 p-4"
     >
       <h3 className="font-bold text-md">{title}</h3>
-      <p className="text-gray-500 text-sm mt-1">{description}</p>
+      <p className="text-sm text-gray-800">{description}</p>
+      <span className="text-xs px-2 py-1 font-semibold bg-gray-200 self-start">
+        {link}
+      </span>
     </a>
-  )
+  );
 }

@@ -4,25 +4,25 @@ export const projects = [
     title: "THIRDWAVE",
     description:
       "Made a website for my aunt & uncle for their local coffee business",
-    link: "https://thirdwave.vercel.app",
+    link: "https://third-wave.netlify.app/",
   },
   {
     id: "2",
     title: "JAM-B",
     description: "Made a website for my local gym",
-    link: "https://jamb.vercel.app",
+    link: "https://jam-b.netlify.app/",
   },
   {
     id: "3",
     title: "Conversiv",
     description: "Description for Project 3",
-    link: "https://www.conversiv.io/",
+    link: "conversiv.io",
   },
   {
     id: "4",
     title: "Conversiv Chat",
     description: "Description for Project 4",
-    link: "https://chat.conversiv.io/",
+    link: "chat.conversiv.io",
   },
   {
     id: "5",
