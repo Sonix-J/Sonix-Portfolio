@@ -88,3 +88,10 @@ export const recommendations = [
     contact: "09XX-XXX-XXXX",
   },
 ];
+
+export const socials = [
+  { name: 'LinkedIn', url: 'https://www.linkedin.com/in/sonix-j/', image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg' },
+  { name: 'GitHub', url: 'https://github.com/sonix-j', image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg' },
+  { name: 'Facebook', url: 'https://www.facebook.com/sonix.jayson', image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg' },
+  { name: 'Instagram', url: 'https://www.instagram.com/sonix.jayson/', image: 'https://cdn-icons-png.flaticon.com/512/2111/2111463.png' },
+]
