@@ -15,7 +15,7 @@ export default function Hero() {
           <MapPin size={12} />
           Tungkil, Minglanilla, Cebu
         </p>
-        <p className="text-sm font-semibold">BSIT Student</p>
+        <p className="text-sm font-semibold">Frontend Developer - UI/UX Designer</p>
       </div>
     </section>
   )
