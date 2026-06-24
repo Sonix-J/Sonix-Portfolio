@@ -3,6 +3,8 @@ import jamB from "../assets/projects/jam-b.png";
 import conversiv from "../assets/projects/conversiv.png";
 import chatConversiv from "../assets/projects/chat-conversiv.png";
 
+import gymbrw from "../assets/ui/gymbrw_ui.png";
+
 export const projects = [
   {
     id: "1",
@@ -41,6 +43,13 @@ export const projects = [
     preview:
       "https://api.microlink.io/?url=https://thirdwave.vercel.app&screenshot=true&meta=false&embed=screenshot.url",
   },
+];
+
+export const uiDesigns = [
+  {
+    id: "1",
+    preview: gymbrw
+  }
 ];
 
 export const skills = [

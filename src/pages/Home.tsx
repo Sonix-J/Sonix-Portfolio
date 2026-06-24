@@ -5,6 +5,7 @@ import Education from "../components/sections/Education";
 import Skills from "../components/sections/Skills";
 import Recommendation from "../components/sections/Recommendation";
 import Links from "../components/sections/Links";
+import Designs from "../components/sections/Designs";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
             <Education />
             <Skills />
           </div>
+          <Designs />
           <Recommendation />
         </div>
         <div className="hidden md:flex flex-col gap-4">

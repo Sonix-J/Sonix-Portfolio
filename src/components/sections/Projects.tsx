@@ -7,7 +7,7 @@ export default function Projects() {
     <Card
       title="Recent Projects"
       action={
-        <a href="/projects" className="text-sm font-semibold">
+        <a href="/projects" className="text-sm font-semibold hover:underline">
           View all
         </a>
       }

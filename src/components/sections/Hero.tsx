@@ -1,5 +1,5 @@
-import { MapPin } from 'lucide-react'
-import profile from '../../assets/profile.jpg'
+import { MapPin } from "lucide-react";
+import profile from "../../assets/profile.jpg";
 
 export default function Hero() {
   return (
@@ -10,13 +10,17 @@ export default function Hero() {
         className="w-40 h-40 object-cover"
       />
       <div className="flex flex-col gap-2">
-        <h1 className="text-lg font-bold md:text-2xl">Jayson Gabriel L. Limosnero</h1>
-        <p className="flex items-center text-sm gap-1 font-semibold">
-          <MapPin size={12} />
-          Tungkil, Minglanilla, Cebu
+        <h1 className="text-lg font-bold md:text-2xl">
+          Jayson Gabriel L. Limosnero
+        </h1>
+        <p className="flex items-start gap-1 text-sm font-semibold">
+          <MapPin size={16} className="mt-0.5 shrink-0" />
+          <span>Tungkil, Minglanilla, Cebu</span>
         </p>
-        <p className="text-sm font-semibold">Frontend Developer - UI/UX Designer</p>
+        <p className="text-sm font-semibold">
+          Frontend Developer - UI/UX Designer
+        </p>
       </div>
     </section>
-  )
+  );
 }
