@@ -16,7 +16,7 @@ export default function ProjectCard({
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      className="flex flex-col bg-gray-200 rounded overflow-hidden"
+      className="flex flex-col bg-gray-200 rounded overflow-hidden hover:bg-gray-300 transition-colors duration-200"
     >
       {preview && (
         <img src={preview} alt={title} className="w-full h-36 object-cover" />
