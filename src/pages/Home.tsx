@@ -6,6 +6,7 @@ import Skills from "../components/sections/Skills";
 import Recommendation from "../components/sections/Recommendation";
 import Links from "../components/sections/Links";
 import Designs from "../components/sections/Designs";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
           <Links />
         </div>
       </div>
+      <Footer />
     </main>
   );
 }
