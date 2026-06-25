@@ -14,7 +14,7 @@ export default function RecommendationCard({
   return (
     <div className="flex items-start">
       <div className="flex flex-col gap-2">
-        <p className=" text-sm">"{testimonials}"</p>
+        <p className="text-sm md:text-base">"{testimonials}"</p>
         <div className="border-b border-gray-300"></div>
         <div>
           <p className="font-bold text-md">{name}</p>

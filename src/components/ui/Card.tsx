@@ -10,7 +10,7 @@ export default function Card({ title, children, className = '', action }: CardPr
     <div className={`border border-gray-50 rounded p-4 shadow-sm bg-white ${className}`}>
       {title && (
         <div className="flex items-center justify-between mb-4">
-          <h2 className="text-xl font-bold">{title}</h2>
+          <h2 className="text-lg md:text-xl font-bold">{title}</h2>
           {action}
         </div>
       )}

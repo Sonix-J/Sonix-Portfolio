@@ -10,14 +10,14 @@ export default function Hero() {
         className="w-40 h-40 object-cover"
       />
       <div className="flex flex-col gap-2">
-        <h1 className="text-lg font-bold md:text-2xl">
+        <h1 className="text-lg font-bold md:text-xl">
           Jayson Gabriel L. Limosnero
         </h1>
-        <p className="flex items-start gap-1 text-sm font-semibold">
+        <p className="flex items-start gap-1 text-sm">
           <MapPin size={16} className="mt-0.5 shrink-0" />
-          <span>Tungkil, Minglanilla, Cebu</span>
+          <span>Cebu, Philippines</span>
         </p>
-        <p className="text-sm font-semibold">
+        <p className="text-sm">
           Frontend Developer - UI/UX Designer
         </p>
       </div>

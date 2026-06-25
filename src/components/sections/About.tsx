@@ -3,7 +3,7 @@ import Card from "../ui/Card";
 export default function About() {
   return (
     <Card title="About">
-      <p>
+      <p className="text-sm md:text-base">
         Hi, I’m Jayson Gabriel Limosnero. I’m passionate about coding, digital
         creativity, and personal growth. I enjoy turning ideas into functional
         and aesthetic projects, whether it’s designing a user-friendly
