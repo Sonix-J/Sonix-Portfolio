@@ -3,7 +3,8 @@ import jamB from "../assets/projects/jam-b.png";
 import conversiv from "../assets/projects/conversiv.png";
 import chatConversiv from "../assets/projects/chat-conversiv.png";
 
-import gymbrw from "../assets/ui/gymbrw_ui.png";
+import gymbrwUI from "../assets/ui/gymbrw_ui.png";
+import conversivUI from "../assets/ui/conversiv_ui.png";
 
 export const projects = [
   {
@@ -48,7 +49,11 @@ export const projects = [
 export const uiDesigns = [
   {
     id: "1",
-    preview: gymbrw
+    preview: gymbrwUI
+  },
+  {
+    id: "2",
+    preview: conversivUI
   }
 ];
 
@@ -71,30 +76,30 @@ export const recommendations = [
   {
     name: "Sharmaine Nadela",
     testimonials:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing elit quisque faucibus ex sapien vitae. Ex sapien vitae pellentesque sem placerat in id. Placerat in id cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu aenean.",
+      "Jayson built our web app from scratch and delivered it ahead of schedule. Clean code, great communication.",
     position: "CEO of Conversiv",
-    contact: "09XX-XXX-XXXX",
+    contact: "0926-707-5431",
   },
   {
     name: "Isa",
     testimonials:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing elit quisque faucibus ex sapien vitae. Ex sapien vitae pellentesque sem placerat in id. Placerat in id cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu aenean.",
+      "Jayson has an eye for design and the technical skills to back it up. Highly recommend him for any web project.",
     position: "AI Engineer of Conversiv",
-    contact: "09XX-XXX-XXXX",
+    contact: "0908-111-4479",
   },
   {
     name: "Joe Ocaba",
     testimonials:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing elit quisque faucibus ex sapien vitae. Ex sapien vitae pellentesque sem placerat in id. Placerat in id cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu aenean.",
+      "Working with Jayson was effortless. He understood exactly what we needed and the final product exceeded our expectations.",
     position: "Analytics Engineer of Conversiv",
-    contact: "09XX-XXX-XXXX",
+    contact: "0917-634-0611",
   },
 ];
 
 export const socials = [
   {
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/sonix-j/",
+    url: "https://www.linkedin.com/in/jayson-frontend-dev/",
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg",
   },
@@ -106,13 +111,13 @@ export const socials = [
   },
   {
     name: "Facebook",
-    url: "https://www.facebook.com/sonix.jayson",
+    url: "https://www.facebook.com/jaysongabriel.limosnero/",
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg",
   },
   {
     name: "Instagram",
-    url: "https://www.instagram.com/sonix.jayson/",
+    url: "https://www.instagram.com/j_.sonn/",
     image: "https://cdn-icons-png.flaticon.com/512/2111/2111463.png",
   },
 ];
